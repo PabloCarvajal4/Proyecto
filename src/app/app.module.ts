@@ -13,7 +13,7 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { EmpleadosComponent } from './pages/empleados/empleados.component';
 import { ProduccionComponent } from './pages/produccion/produccion.component';
-
+import { DistribucionComponent } from './pages/distribucion/distribucion.component';
 //NGZORRO
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { en_US } from 'ng-zorro-antd/i18n';
@@ -37,7 +37,8 @@ registerLocaleData(en);
     MenuComponent,
     WelcomeComponent,
     EmpleadosComponent,
-    ProduccionComponent
+    ProduccionComponent,
+    DistribucionComponent
   ],
   imports: [
     BrowserModule,
