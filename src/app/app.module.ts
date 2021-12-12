@@ -12,6 +12,7 @@ import { IconsProviderModule } from './icons-provider.module';
 import { MenuComponent } from './pages/menu/menu.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { EmpleadosComponent } from './pages/empleados/empleados.component';
+import { ProduccionComponent } from './pages/produccion/produccion.component';
 
 //NGZORRO
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
@@ -35,7 +36,8 @@ registerLocaleData(en);
     AppComponent,
     MenuComponent,
     WelcomeComponent,
-    EmpleadosComponent
+    EmpleadosComponent,
+    ProduccionComponent
   ],
   imports: [
     BrowserModule,
